@@ -439,7 +439,7 @@ def badge_html(status, delta):
     return f"<span class='{cls}'>{label}</span>"
 
 
-@st.cache_data
+
 def load_data(uploaded_file):
     df = pd.read_excel(uploaded_file)
     df = normalize_columns(df)
