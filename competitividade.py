@@ -26,7 +26,7 @@ ALL_FACTORS = [
     "Infraestrutura",
 ]
 
-ARQUIVO_EXCEL = r"C:\Users\vitor.amaral\Downloads\dados_dashboard_2025 (5).xlsx"
+ARQUIVO_EXCEL = "dados_dashboard_2025 (5).xlsx"
 
 
 def render_html(raw_html: str):
